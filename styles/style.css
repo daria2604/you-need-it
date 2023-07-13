@@ -58,3 +58,96 @@
   grid-area: address;
 }
 
+.content {
+  position: relative;
+  z-index: 0;
+}
+
+.cover {
+  padding: 165px 50px 50px 50px;
+  background: url(../images/cover.jpg) no-repeat;
+  background-size: 100%;
+  color: #fff;
+  position: relative;
+  z-index: -2;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .6;
+  z-index: -1;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.cover__title_aligned-text {
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.15; 
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 1.15;
+}
+
+.cover__title_letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.cover__title_no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__title_aligned-text_center {
+  text-align: center;
+  line-height: 1;
+  margin-right: 60px;
+}
+
+.cover__title_aligned-text_right {
+  text-align: right;
+  line-height: 1;
+}
+
+.cover__description {
+  display: flex;
+  column-gap: 78px;
+  justify-content: end;
+  align-items: center;
+  margin-top: 135px;
+}
+
+.cover__description-text {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.3;
+  word-spacing: 18px;
+}
+
+.cover__bet-button {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 14px 32px;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cover__bet-button:hover {
+  opacity: .7;
+}
