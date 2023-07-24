@@ -1,0 +1,7 @@
+.header__menu {
+  display: flex;
+  align-items: center;
+  grid-area: menu;
+  font-size: 18px;
+  font-weight: 400;
+}

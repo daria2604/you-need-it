@@ -1,0 +1,9 @@
+.aligned-text {
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.15; 
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 1.15;
+}

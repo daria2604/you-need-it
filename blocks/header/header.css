@@ -1,0 +1,7 @@
+.header {
+  padding: 92px 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+  "menu menu logo . address";
+}

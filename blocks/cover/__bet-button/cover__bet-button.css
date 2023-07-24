@@ -1,0 +1,15 @@
+.cover__bet-button {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 14px 32px;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cover__bet-button:hover {
+  opacity: .7;
+  transition: all .2s ease-in-out;
+}

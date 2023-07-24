@@ -1,0 +1,9 @@
+.header__logo {
+  margin: auto;
+  grid-area: logo;
+  display: block;
+  background: url(../../../images/logo-black.svg) center no-repeat;
+  width: 148px;
+  height: 105px;
+  cursor: pointer;
+}

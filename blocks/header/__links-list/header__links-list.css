@@ -1,0 +1,6 @@
+.header__links-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}

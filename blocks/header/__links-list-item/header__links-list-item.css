@@ -1,0 +1,4 @@
+.header__links-list-item {
+  list-style: circle;
+  list-style-position: outside;
+}

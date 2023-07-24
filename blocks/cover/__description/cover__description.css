@@ -1,0 +1,7 @@
+.cover__description {
+  display: flex;
+  column-gap: 78px;
+  justify-content: end;
+  align-items: center;
+  margin-top: 135px;
+}
